@@ -92,7 +92,7 @@ public class StudentControllerTest {
 		// Create test data
 		Integer studentId = 1;
 		StudentEntity existingStudent = new StudentEntity(studentId, "John", "john@example.com");
-		StudentEntity updatedStudent = new StudentEntity(studentId, "Jane", "jane@example.com");
+		StudentEntity updatedStudent = new StudentEntity(studentId, "Jane", "jan@example.com");
 
 		// Configure the mock behavior
 		when(studentRepository.findById(studentId)).thenReturn(Optional.of(existingStudent));
