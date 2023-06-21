@@ -1,0 +1,6 @@
+A.class
+com/interview/demo/ProjectApplication.class
+com/interview/demo/controller/StudentRepository.class
+com/interview/demo/controller/StudentEntity.class
+com/interview/demo/controller/StudentController.class
+lambdaDemo.class
