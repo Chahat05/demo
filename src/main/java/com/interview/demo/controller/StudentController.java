@@ -1,5 +1,6 @@
 package com.interview.demo.controller;
 
+import com.interview.demo.service.Producer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,6 +14,14 @@ import java.util.Map;
 public class StudentController {
     @Autowired
     StudentRepository studentRepository;
+    @Autowired
+    Producer producer;
+
+    @GetMapping ("/producerMsg")
+    public void getMessageFromClient (@RequestParam("message") String message) {
+        producer.sendMsgToTopic (message);
+    }
+    //localhost:8080/api/student/producerMsg?message="first message"
 
 
     @GetMapping("/get-all-students")
