@@ -7,6 +7,7 @@ interface A
         }
 
         //functional interface can only have one method except it can have object class methods as every class in java extends to Object class by default .
+    //we cant create an object of interface so we do the following:
 
 //class B implements A {
 // public void show(){
@@ -18,7 +19,9 @@ public class lambdaDemo {
     public static void main(String[] args) {
         //A obj= new B(){gvdasidgfaiuyfdv}
         
-        A object=  () -> System.out.println("HI");;
+        A object=  () -> {
+            System.out.println("HI");
+        };
         object.show();
 
     }

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="168c18ed-008c-4cea-87ab-6b6e9ff31c9e" name="Changes" comment="" />
+    <list default="true" id="168c18ed-008c-4cea-87ab-6b6e9ff31c9e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambdaDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lambdaDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lambdaDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/interview/demo/StudentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/interview/demo/StudentControllerTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,10 +74,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SteamsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SteamsDemo" />
       <module name="demo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lambdaDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdaDemo" />
+      <module name="demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lambdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdaDemo" />
+      <module name="demo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,38 +106,6 @@
       <option name="PACKAGE_NAME" value="com.interview.demo" />
       <option name="MAIN_CLASS_NAME" value="com.interview.demo.StudentControllerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentControllerTest.testDeleteStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interview.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.interview.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.interview.demo.StudentControllerTest" />
-      <option name="METHOD_NAME" value="testDeleteStudent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentControllerTest.testUpdateStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interview.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.interview.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.interview.demo.StudentControllerTest" />
-      <option name="METHOD_NAME" value="testUpdateStudent" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,20 +147,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.SteamsDemo" />
+      <item itemvalue="Application.lambdaDemo" />
+      <item itemvalue="Application.lambdaDemo (1)" />
       <item itemvalue="Application.ProjectApplication" />
-      <item itemvalue="JUnit.All in demo" />
       <item itemvalue="JUnit.StudentControllerTest" />
-      <item itemvalue="JUnit.StudentControllerTest.testDeleteStudent" />
-      <item itemvalue="JUnit.StudentControllerTest.testUpdateStudent" />
       <item itemvalue="Maven.demo [spring-boot:run]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProjectApplication" />
         <item itemvalue="JUnit.StudentControllerTest" />
-        <item itemvalue="JUnit.StudentControllerTest.testUpdateStudent" />
-        <item itemvalue="JUnit.StudentControllerTest.testDeleteStudent" />
-        <item itemvalue="JUnit.All in demo" />
+        <item itemvalue="Application.SteamsDemo" />
+        <item itemvalue="Application.lambdaDemo (1)" />
+        <item itemvalue="Application.lambdaDemo" />
+        <item itemvalue="Application.ProjectApplication" />
       </list>
     </recent_temporary>
   </component>
